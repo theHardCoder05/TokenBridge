@@ -11,9 +11,9 @@
       "./test"
     ]
   },
-  "include": [
-    "./test"
-  ],
+  "include": 
+    ["./test", "./src", "./scripts"],
+  
   "exclude": [
     "./node_modules/*"
   ],
